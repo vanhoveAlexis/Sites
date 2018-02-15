@@ -1,0 +1,3 @@
+videal_depannage_alarme_homepage:
+    path:     /Depannage_Alarme
+    defaults: { _controller: VIDEALDepannageAlarmeBundle:Default:index }

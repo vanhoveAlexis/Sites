@@ -1,0 +1,4 @@
+services:
+#    videal_interphonie_et_ca.example:
+#        class: VIDEAL\InterphonieEtCABundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

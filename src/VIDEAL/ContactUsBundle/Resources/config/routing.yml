@@ -1,0 +1,3 @@
+videal_contact_us_homepage:
+    path:     /ContactUs
+    defaults: { _controller: VIDEALContactUsBundle:Default:index }

@@ -1,0 +1,3 @@
+videal_accueil_homepage:
+    path:     /Accueil
+    defaults: { _controller: VIDEALAccueilBundle:Default:index }

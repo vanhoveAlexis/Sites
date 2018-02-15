@@ -1,0 +1,3 @@
+videal_depannage_video_homepage:
+    path:     /DepannageVideo
+    defaults: { _controller: VIDEALDepannageVideoBundle:Default:index }

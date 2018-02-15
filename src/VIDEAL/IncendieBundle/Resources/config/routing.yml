@@ -1,0 +1,3 @@
+videal_incendie_homepage:
+    path:     /Incendie
+    defaults: { _controller: VIDEALIncendieBundle:Default:index }

@@ -1,0 +1,24 @@
+videal_interphonie_et_ca:
+    resource: "@VIDEALInterphonieEtCABundle/Resources/config/routing.yml"
+    prefix:   /
+
+videal_incendie:
+    resource: "@VIDEALIncendieBundle/Resources/config/routing.yml"
+    prefix:   /
+
+videal_depannage_video:
+    resource: "@VIDEALDepannageVideoBundle/Resources/config/routing.yml"
+    prefix:   /
+
+videal_depannage_alarme:
+    resource: "@VIDEALDepannageAlarmeBundle/Resources/config/routing.yml"
+    prefix:   /
+
+videal_contact_us:
+    resource: "@VIDEALContactUsBundle/Resources/config/routing.yml"
+    prefix:   /
+
+videal_accueil:
+    resource: "@VIDEALAccueilBundle/Resources/config/routing.yml"
+    prefix:   /
+

@@ -1,0 +1,3 @@
+videal_interphonie_et_ca_homepage:
+    path:     /Incendie_Controle_d_acces
+    defaults: { _controller: VIDEALInterphonieEtCABundle:Default:index }

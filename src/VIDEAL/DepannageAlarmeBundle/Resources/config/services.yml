@@ -1,0 +1,4 @@
+services:
+#    videal_depannage_alarme.example:
+#        class: VIDEAL\DepannageAlarmeBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
