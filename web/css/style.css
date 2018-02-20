@@ -48,18 +48,17 @@
 
 body
 {
-  background-color:white;
+  background: url(../bundles/Images/fond.jpeg) no-repeat;
 }
 
 footer
 {
-  background-color:#007BFF;
-  color: yellow;
+  background-color:#5EB6DD;
 }
 
 .bouton_navbar
 {
-  background-color: rgb(255, 255, 0);
+  background-color:#FFEFB6;
   color:#007BFF;
   font-weight: bold;
 }
@@ -84,6 +83,6 @@ footer
 }
 
 .navbar-default {
-    background-color:#FFFF00;
+    background-color:#FFEFB6;
     border-color:rgba(135,206,250) ;
 }
