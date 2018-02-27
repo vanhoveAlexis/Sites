@@ -1,0 +1,3 @@
+videal_contrat_maintenance_homepage:
+    path:     /Contrat_Maintenance
+    defaults: { _controller: VIDEALContratMaintenanceBundle:Default:index }

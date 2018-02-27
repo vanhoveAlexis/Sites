@@ -1,0 +1,4 @@
+services:
+#    videal_contrat_maintenance.example:
+#        class: VIDEAL\ContratMaintenanceBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

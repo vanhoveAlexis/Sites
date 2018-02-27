@@ -1,0 +1,37 @@
+{% extends 'base.html.twig'%}
+{% block title %}Contrat de Maintenace{% endblock %}
+{% block body %}
+<h1 class="text-center">CONTRAT DE MAINTENANCE</h1>
+<div class=espace_blanc></div>
+<div class="container">
+     <div class="col-lg-10 col-md-12 col-xs-14">
+        <a href="#" class="d-block mb-4 h-100"> 
+Afin d'optimiser votre système d'alarme intrusion, nous vous proposons toute une gamme de contrat de maintenance.
+  </div>
+ </div>
+ </form>
+<form class="form-horizontal">
+<div class="form-group"> 
+   <label class="control-label col-sm-5" for="Contrat TRANQUILLITE">Contrat TRANQUILLITE:</label>
+   <div class="col-sm-15">
+     <input type="Nom" class="form-control" id="Nom" placeholder="Ce contrat comprend une visite annuelle préventive afin de contrôler : le bon fonctionnement de votre système d'alarme intrusion, d'effectuer toute mise à jour éventuelle ainsi qu'une remise à niveau des utilisateurs. " required="required">
+   </div>
+ </div>
+ </form>
+ <form class="form-horizontal">
+  <div class="form-group">
+   <label class="control-label col-sm-2" for="Contrat MEDIUM">Contrat MEDIUM:</label>
+    <div class="col-sm-15">
+     <input type="Nom" class="form-control" id="Nom" placeholder="Ce contrat comprend une visite annuelle ainsi que toutes les interventions ( M/O et déplacements) durant l'année pour tout problème contractuel." required="required">
+   </div>
+ </div>
+ </form>
+ <form class="form-horizontal">
+ <div class="form-group">
+   <label class="control-label col-sm-2" for="Contrat OPTIMUM">Contrat OPTIMUM:</label>
+ 
+    <input type="Nom" class="form-control" id="Nom" placeholder=" Ce contrat comprend une visite annuelle préventive ainsi que toutes interventions ( M/O et déplacements) et le remplacement du matériel pour tout problème contractuel"required="required">
+   </div>
+ </div>
+ </form>
+{% endblock %}
