@@ -1,3 +1,7 @@
+videal_contrat_maintenance:
+    resource: "@VIDEALContratMaintenanceBundle/Resources/config/routing.yml"
+    prefix:   /
+
 videal_interphonie_et_ca:
     resource: "@VIDEALInterphonieEtCABundle/Resources/config/routing.yml"
     prefix:   /

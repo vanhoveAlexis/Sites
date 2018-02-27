@@ -22,6 +22,7 @@ class AppKernel extends Kernel
             new VIDEAL\DepannageVideoBundle\VIDEALDepannageVideoBundle(),
             new VIDEAL\IncendieBundle\VIDEALIncendieBundle(),
             new VIDEAL\InterphonieEtCABundle\VIDEALInterphonieEtCABundle(),
+            new VIDEAL\ContratMaintenanceBundle\VIDEALContratMaintenanceBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {
