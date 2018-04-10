@@ -1,11 +1,22 @@
 {% extends 'base.html.twig'%}
 {% block title %}Interphonie/Controle d'accès{% endblock %}
 {% block body %}
-<h1 class="text-center">Interphonie</h1>
-<div class=espace_blanc></div>
-<div class="container">
-  <div class="row text-center text-lg-left">
-  <div class="col-lg-4 col-md-5 col-xs-7">
+<div class="bodyy-left">
+  {% block navigation %}
+  <li><a href="{{ path('videal_contrat_maintenance_homepage') }}">Contrat de maintenance</a></li>
+  <li><a href="#">Depannage/ Reglages porte de garage</a></li>
+  <li><a href="{{ path('videal_depannage_alarme_homepage') }}">Depannage Système d'alarme</a></li>
+  <li><a href="{{ path('videal_depannage_video_homepage') }}">Depannage Video</a></li>
+  <li><a href="{{ path('videal_interphonie_et_ca_homepage') }}">Interphonie et controle d'accès</a></li>
+  <li><a href="{{ path('videal_incendie_homepage') }}">Incendie</a></li>
+  {% endblock %}
+</div>
+<div class="bodyy-right">
+  <h1 class="text-center">Interphonie</h1>
+  <div class=espace_blanc></div>
+  <div class="container">
+    <div class="row text-center text-lg-left">
+      <div class="col-lg-4 col-md-5 col-xs-7">
         <a href="#" class="d-block mb-4 h-100">
           <img class="img-fluid img-thumbnail" src="{{ asset('bundles/Images/Logo dépannage/DAITEM.jpg') }}">
         </a>
@@ -25,17 +36,18 @@
           <img class="img-fluid img-thumbnail" src="{{ asset('bundles/Images/Logo dépannage/CASTEL.jpg') }}" alt="">
         </a>
       </div>
+    </div>
   </div>
-</div>
-<h1 class="text-center mt-5">Controle d'accès</h1>
-<div class="espace_blanc"></div>
-<div class="container">
-  <div class="row text-center text-lg-left">
+  <h1 class="text-center mt-5">Controle d'accès</h1>
+  <div class="espace_blanc"></div>
+  <div class="container">
+    <div class="row text-center text-lg-left">
       <div class="col-lg-4 offset-lg-4 col-md-5 offset-md-5 col-xs-7 offset-xs-7">
         <a href="#" class="d-block mb-4 h-100">
           <img class="img-fluid img-thumbnail" src="DIGICODE" alt="DIGICODE">
         </a>
       </div>
+    </div>
   </div>
 </div>
 

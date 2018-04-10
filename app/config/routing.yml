@@ -1,3 +1,7 @@
+videal_about_us:
+    resource: "@VIDEALAboutUsBundle/Resources/config/routing.yml"
+    prefix:   /
+
 videal_contrat_maintenance:
     resource: "@VIDEALContratMaintenanceBundle/Resources/config/routing.yml"
     prefix:   /
