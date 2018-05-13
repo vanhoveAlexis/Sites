@@ -19,6 +19,11 @@ footer
   width: 500px;
 }
 
+.img-accueil
+{
+  background-image: repeat;
+}
+
 body,html{
   font-family: Verdana, Calibri, sans serif;
   margin: 0px;
