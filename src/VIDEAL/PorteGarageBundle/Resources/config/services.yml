@@ -1,0 +1,4 @@
+services:
+#    videal_porte_garage.example:
+#        class: VIDEAL\PorteGarageBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

@@ -1,3 +1,8 @@
+videal_porte_garage:
+    resource: "@VIDEALPorteGarageBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 videal_about_us:
     resource: "@VIDEALAboutUsBundle/Resources/config/routing.yml"
     prefix:   /
